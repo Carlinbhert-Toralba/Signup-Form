@@ -128,8 +128,15 @@ body {
   width: 80%;
   box-shadow: ;
   background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Sidebar */
 .sidebar {
   background-image: url(./img/ship.jpg);
@@ -151,6 +158,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   font-family: "Norse", sans-serif;
+  color: white;
 }
 
 .logo-box > h1 {
@@ -163,8 +171,11 @@ body {
   height: auto;
 }
 
-/* Form */
-.main-section {
+/* Form*/
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Icon Styling */
