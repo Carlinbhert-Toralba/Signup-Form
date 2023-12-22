@@ -97,12 +97,27 @@ textarea:not([rows]) {
 /* End of CSS Reset */
 
 /* Main Section */
+@font-face {
+  font-family: "Norse";
+  src: url("./fonts/Norse.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url("./fonts/Norsebold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   font-family: Helvetica, sans-serif;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #868e96;
 }
 
 .container {
@@ -112,6 +127,7 @@ body {
   overflow: hidden;
   width: 80%;
   box-shadow: ;
+  background-color: white;
 }
 
 /* Sidebar */
@@ -131,11 +147,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-family: "Norse", sans-serif;
 }
 
 .logo-box > h1 {
   align-self: center;
-  font-size: 4rem;
+  font-size: 4rem;bold
 }
 
 .logo-box > img {
