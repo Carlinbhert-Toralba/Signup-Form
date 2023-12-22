@@ -99,16 +99,38 @@ textarea:not([rows]) {
 /* Main Section */
 body {
   font-family: Helvetica, sans-serif;
-  width: 1200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   display: flex;
+  height: 80%;
+  align-items: center;
+  overflow: hidden;
+  width: 80%;
+  box-shadow: ;
 }
 
 /* Sidebar */
+.sidebar {
+  background-image: url(./img/ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1300px auto;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo-box {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-box > h1 {
@@ -119,6 +141,10 @@ body {
 .logo-box > img {
   width: 140px;
   height: auto;
+}
+
+/* Form */
+.main-section {
 }
 
 /* Icon Styling */
