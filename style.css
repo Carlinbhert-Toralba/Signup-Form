@@ -1,3 +1,4 @@
+/* Beginning of CSS reset */
 /* Box sizing rules */
 *,
 *::before,
@@ -92,4 +93,37 @@ textarea:not([rows]) {
 * {
   margin: 0;
   padding: 0;
+}
+/* End of CSS Reset */
+
+/* Main Section */
+body {
+  font-family: Helvetica, sans-serif;
+  width: 1200px;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.logo-box {
+  display: flex;
+}
+
+.logo-box > h1 {
+  align-self: center;
+  font-size: 4rem;
+}
+
+.logo-box > img {
+  width: 140px;
+  height: auto;
+}
+
+/* Icon Styling */
+.icon {
+  width: 25px;
+  height: auto;
+  stroke: #ffec99;
 }
