@@ -96,7 +96,7 @@ textarea:not([rows]) {
 }
 /* End of CSS Reset */
 
-/* Main Section */
+/* Website */
 @font-face {
   font-family: "Norse";
   src: url("./fonts/Norse.otf");
@@ -117,7 +117,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #868e96;
+  background-color: #ADB5BD;
+  text-align: center;
 }
 
 .container {
@@ -129,13 +130,22 @@ body {
   box-shadow: ;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 
-.text-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.text-section > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.text-section > p {
+  text-align: center;
+}
+
+.text-section > p:nth-child(10) {
+  font-family: "Norse", sans-serif;
 }
 /* Sidebar */
 .sidebar {
@@ -155,7 +165,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   font-family: "Norse", sans-serif;
   color: white;
@@ -172,6 +181,12 @@ body {
 }
 
 /* Form*/
+.main-section {
+  width: 55%;
+}
+
+
+
 .form-section {
   display: flex;
   justify-content: center;
@@ -182,5 +197,5 @@ body {
 .icon {
   width: 25px;
   height: auto;
-  stroke: #ffec99;
+  stroke: #D98B09;
 }
