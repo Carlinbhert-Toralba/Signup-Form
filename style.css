@@ -117,7 +117,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ADB5BD;
+  background-color: #adb5bd;
   text-align: center;
 }
 
@@ -125,28 +125,14 @@ body {
   display: flex;
   height: 80%;
   align-items: center;
-  overflow: hidden;
-  width: 80%;
+  max-width: 70%;
   box-shadow: ;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 
-.text-section > h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem;
-  margin-bottom: 50px;
-}
-
-.text-section > p {
-  text-align: center;
-}
-
-.text-section > p:nth-child(10) {
-  font-family: "Norse", sans-serif;
-}
 /* Sidebar */
 .sidebar {
   background-image: url(./img/ship.jpg);
@@ -154,7 +140,7 @@ body {
   background-position: center;
   background-size: 1300px auto;
   height: 100%;
-  width: 45%;
+  width: 55%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,12 +153,13 @@ body {
   margin-top: 10px;
   width: 100%;
   font-family: "Norse", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
 }
 
 .logo-box > h1 {
   align-self: center;
-  font-size: 4rem;bold
+  font-size: 5rem;
 }
 
 .logo-box > img {
@@ -182,20 +169,88 @@ body {
 
 /* Form*/
 .main-section {
-  width: 55%;
+  width: 45%;
+  text-align: left;
 }
-
-
 
 .form-section {
   display: flex;
-  justify-content: center;
+  margin: 30px 50px;
+}
+
+.text-section > h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.text-section > p {
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 0px 50px;
+}
+
+label,
+input {
+  display: flex;
   align-items: center;
 }
 
-/* Icon Styling */
-.icon {
-  width: 25px;
-  height: auto;
-  stroke: #D98B09;
+input {
+  padding: 8px 50px;
+  text-align: left;
+  font-size: 1.2rem;
 }
+
+.form {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 40px;
+  font-size: 1.4rem;
+  border: none;
+  margin-top: 0;
+  background-color: #96f2d7;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #63e6be;
+}
+
+button:active {
+  background-color: #38d9a9;
+  transform: translateY(4px);
+}
+.log-in {
+  color: #12b886;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type="text"]:focus {
+  border: 3px solid blue;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+}
+/* Icon Styling */
