@@ -126,7 +126,6 @@ body {
   height: 80%;
   align-items: center;
   max-width: 70%;
-  box-shadow: ;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
@@ -167,7 +166,7 @@ body {
   height: auto;
 }
 
-/* Form*/
+/* Form */
 .main-section {
   width: 45%;
   text-align: left;
@@ -226,8 +225,14 @@ button:active {
   background-color: #38d9a9;
   transform: translateY(4px);
 }
+
 .log-in {
   color: #12b886;
+}
+
+label {
+  color: black;
+  font-weight: bold;
 }
 
 input[type="text"] {
@@ -246,11 +251,17 @@ input[type="password"] {
 }
 
 input[type="text"]:focus {
-  border: 3px solid blue;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+input[type="email"]:focus {
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+input[type="password"]:focus {
   box-shadow: rgba(0, 0, 0, 0.4);
 }
 
 a {
   text-decoration: none;
 }
-/* Icon Styling */

@@ -1,6 +1,9 @@
 # Signup-Form
 
-This project is for testing my ability to make a signup form using HTML
-and then styling it with CSS
+#Signup Form
+A practice project created with HTML and CSS
 
-Photo/SVG Credits: Tombud and OpenClipart-Vectors
+##Photo/Art Credits
+
+- Tombud
+- OpenClipart-Vectors
